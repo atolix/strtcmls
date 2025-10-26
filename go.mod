@@ -1,4 +1,4 @@
-module strtcmls
+module github.com/atolix/strtcmls
 
 go 1.24.0
 
