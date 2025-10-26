@@ -19,6 +19,13 @@ type Model struct {
 	selected int
 }
 
+func NewModel(services []ServiceStatus) Model {
+	return Model{
+		services: services,
+		selected: 0,
+	}
+}
+
 func (m Model) Init() tea.Cmd {
 	return nil
 }
